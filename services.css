@@ -1,0 +1,242 @@
+
+
+body{
+    background-image: url(aue.jpg);
+    background-size: cover;
+  }
+  .h1logo2{
+    font-family: 'Reem Kufi Fun', sans-serif;  
+    font-size: 50px;
+    padding-left: 50px;
+    color: white;
+    cursor: pointer;
+    
+  }
+  .hello{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: 700;
+    
+  }
+  .hi{
+    margin-right: 30px;
+    color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+    
+    
+  }
+  .bango{
+    display: flex;
+    position: relative;
+    background: -webkit-linear-gradient(#794ddf,#481d70 ,#220147);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .logo{
+  display: flex;
+  text-decoration: none;
+  
+  
+  }
+  .h1logo{
+  color: white;
+  padding-right: 50px;
+  font-size: 50px;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  border-right: 5px solid #817f81;
+  margin-left: 20px;
+  max-width: 19%;
+  cursor: pointer;
+  
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+  }
+  
+  .menu{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding-left: 0px;
+    padding-right: 10px;
+    max-width: max-content;
+    max-height: max-content;
+    margin-left: 150px;
+    border-radius: 10px 40px;
+    box-shadow: 10px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  .h2_menu1{
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  margin-right: 50px;
+  margin-left: 20px;
+  transition: transform 1s ;
+  
+  }
+  .h2_menu2{
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  margin-right: 50px;
+  margin-left: 20px;
+  transition: transform 1s ;
+    }
+  .h2_menu3{
+  color: rgb(235, 235, 235);
+  font-size: 25px;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  transition: transform 1s ; 
+  }
+  .h2_menu1:hover,.h2_menu2:hover,.h2_menu3:hover{
+  transform: scale(1.2);
+  transition: 0.5s ease-in-out;
+  border-radius: 2px;
+  }
+  .h2_menu1:hover::after, .h2_menu2:hover::after, .h2_menu3:hover::after {
+  background-color: #842bd5;
+  transform: scale(1.2);
+  transition:all 0.5s ease-out; ;
+        
+  }
+  
+  
+  
+  .photo123 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+          
+  .image-container {
+  position: relative;
+  }
+          
+  .photo123 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .image-container {
+  position: relative;
+  }
+  
+  .text-container {
+  
+  position: absolute;
+  left: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 150px;
+  height: auto;
+  font-size: 10px;
+  color: white;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  user-select: all;
+  cursor: pointer;
+  }
+  
+  .image-container:hover .text-container {
+  left: -80px;
+  opacity: 1;
+  
+  }
+  .image-container:hover .text {
+    display: block;
+    opacity: 1;
+  }
+  
+  
+  .text {
+  font-size: 20px;
+  line-height: 30px;
+  pointer-events: none;
+  display: none;
+  
+  }
+  
+  .bango_photo {
+  animation: outline-rotate .8s linear infinite;
+  outline: 3px solid white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .discord_photo {
+  margin-left: 80px;
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+  }
+  
+  .telegram_photo {
+  padding-left: 50px;
+  width: 100px;
+  height: 100px;
+  padding-right: 50px;
+  }
+  
+  .vk_photo{
+  width: 100px;
+  height: 100px;
+  padding-right: 50px;
+  
+  }
+  .musicDiv{
+padding-top: 40px;
+margin-left: 3px;
+  
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  
+ 
+  }
+  .musicTitle{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color: white;
+    font-size: 40px;
+  }
+  .music3{
+    padding-top: 50px;
+    width: 500px;
+    
+  }
+  
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
